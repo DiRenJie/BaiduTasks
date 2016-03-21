@@ -16,24 +16,24 @@
         <article id="part1">
             <h1>文章一级标题</h1>
             <h2>文章二级标题</h2>
-            <section>文章作者 发表时间</section>
+            <h4>文章作者 发表时间</h4>
             <section>
                 <p>这个一段很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长的内容，换行了<br />
                 这个一段较长较长较长较长较长较长较长较长较长较长较长较长较长较长较长较长较长较长较长较长较长的内容，换行了<br />
                 这个一段很长很长很长很长很长<a href="http://ife.baidu.com">这里有个链接到ife.baidu.com</a>长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长的内容，换行了</p>
                 <img src="direnjie.jpeg" /><br />
                 <p>这个一段较长较长较长较长较长较长较长较长较长较长较长较长较长较长较长较长较长较长较长较长较长的内容，换行了<br />
-                这个一段很长很长很长很长很长<a href="http://ife.baidu.com">这里有个链接到ife.baidu.com</a>长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长的内容，结束了</p>
+                这个一段很长很长很长很长很长<a href="http://ife.baidu.com">这里有个链接到ife.baidu.com</a>长很长很长很长很长很长很长很长很长很长很长<b>这有个粗体字</b>很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长的内容，结束了</p>
             </section>
         </article>
         <article id="part2">
             <h1>另一篇文章一级标题</h1>
             <h2>文章二级标题</h2>
-            <section>文章作者 发表时间</section>
+            <h4>文章作者 发表时间</h4>
             <section>
                 <p>这个一段很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长的内容，换行了<br />
                 这个一段较长较长较长较长较长较长较长较长较长较长较长较长较长较长较长较长较长较长较长较长较长的内容，换行了<br />
-                这个一段很长很长很长很长很长<a href="http://ife.baidu.com">这里有个链接到ife.baidu.com</a>长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长的内容，换行了</p>
+                这个一段很长很长很长很长很长<a href="http://ife.baidu.com">这里有个链接到ife.baidu.com</a>长很长很长很长很长很长很长很长很长很长很长<b>这有个粗体字</b>很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长的内容，换行了</p>
                 <img src="direnjie.jpeg" />
                 <ul>
                     <li>列表项目一</li>
@@ -41,7 +41,9 @@
                     <li>列表项目三</li>
                 </ul>
             </section>
-            <h2>图片</h2>
+        </article>
+        <article id="#part3">
+            <h1>图片</h1>
             <section>
                 <ul>
                 <p>好看的图片<br /><img src="direnjie.jpeg" /></p>
@@ -54,10 +56,10 @@
                 </ul>
             </section>
         </article>
-        <article id="part3">
+        <article id="part4">
             <h1>最后一篇文章一级标题</h1>
             <h2>文章二级标题</h2>
-            <section>文章作者 发表时间</section>
+            <h4>文章作者 发表时间</h4>
             <section>
                 <ul>
                     <li>列表项目一</li>
@@ -66,28 +68,34 @@
                 </ul>
                 下面是个表格呢，加了个border哟
                 <table border="1">
-                    <tr>
-                        <th>表头</th><th>表头</th><th>表头</th>
-                    </tr>
-                    <tr>
-                        <td>表单元格内容</td><td>表单元格内容</td><td><a href="">操作</a></td>
-                    </tr>
-                    <tr>
-                        <td>表单元格内容</td><td>表单元格内容</td><td><a href="">操作</a></td>
-                    </tr>
-                    <tr>
-                        <td>表单元格内容</td><td>表单元格内容</td><td><a href="">操作</a></td>
-                    </tr>
-                    <tr>
-                        <td>表单元格内容</td><td>表单元格内容</td><td><a href="">操作</a></td>
-                    </tr>
-                    <tr>
-                        <td>合计</td><td colspan="2">操作</td>
-                    </tr>
+                    <thead>
+                        <tr>
+                            <th>表头</th><th>表头</th><th>表头</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>表单元格内容</td><td>表单元格内容</td><td><a href="">操作</a></td>
+                        </tr>
+                        <tr>
+                            <td>表单元格内容</td><td>表单元格内容</td><td><a href="">操作</a></td>
+                        </tr>
+                        <tr>
+                            <td>表单元格内容</td><td>表单元格内容</td><td><a href="">操作</a></td>
+                        </tr>
+                        <tr>
+                            <td>表单元格内容</td><td>表单元格内容</td><td><a href="">操作</a></td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>合计</td><td colspan="2">操作</td>
+                        </tr>
+                    </tfoot>
                 </table>
             </section>
         </article>
-        <article id="part4">
+        <article>
             <h1>这里未来是个侧栏，这个是侧栏的标题</h1>
             <h2>侧栏注册窗口标题</h2>
             <section>
