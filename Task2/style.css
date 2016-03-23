@@ -37,6 +37,10 @@ header a {
 
 footer {
     background-color: black;
+    color:white;
+    font-size: 12px;
+    text-align: center;
+    padding: 20px;
 }
 
 article {
@@ -75,7 +79,7 @@ p {
     padding: 5px 10px;
     display:inline-block;
     text-indent: 0px;
-    text-align: center
+    text-align: center;
 }
 
 #part4 ul{
@@ -98,4 +102,32 @@ thead {
 tfoot {
     background-color: gainsboro;
     font-weight: bold;
+}
+
+#sidebar h1 {
+    border-left: medium solid gainsboro;
+    padding-left: 20px;
+}
+
+#sidebar h2 {
+    display: none;
+}
+
+form label {
+    display:block;
+    font-size: 12px;
+}
+
+form input {
+    left:900px;
+}
+
+#submit {
+    background-color: darkblue;
+    border:none;
+    border-radius: 10px;
+    width: 100%;
+    color:white;
+    font-size: 15px;
+    padding:10px;
 }
