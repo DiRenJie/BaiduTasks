@@ -2,6 +2,7 @@ body {
     background-color: whitesmoke;
     font-family: sans-serif;
     font-size: 15px;
+    margin:0px;
 }
 
 header {
@@ -65,7 +66,7 @@ article h3 {
     color:grey;
 }
 
-p {
+article p {
     text-indent: 30px;
     line-height: 1.8em;
 }
@@ -104,6 +105,7 @@ tfoot {
     font-weight: bold;
 }
 
+/*Sidebar*/
 #sidebar h1 {
     border-left: medium solid gainsboro;
     padding-left: 20px;
@@ -113,13 +115,44 @@ tfoot {
     display: none;
 }
 
-form label {
-    display:block;
+form {
+    text-align: center;
     font-size: 12px;
+    width: 100%;
 }
 
-form input {
-    left:900px;
+form div {
+    display:block;
+    font-size: 12px;
+    margin: 5px 0px;
+	text-align: center;
+    width:100%;
+    float:left;
+}
+
+form p.tip {
+    color:silver;
+    margin: 5px 0px;
+    text-indent: 0px;
+}
+
+.form-label {
+    display: inline-block;
+    width:33%;
+    text-align: right;
+}
+
+.form-input {
+    display: block;
+    text-align: left;
+    width:66%;
+    margin:0px;
+    float: right;
+}
+
+form textarea {
+    width:90%;
+    height: 80px;
 }
 
 #submit {

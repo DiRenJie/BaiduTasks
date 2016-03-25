@@ -104,34 +104,57 @@
             <h2>侧栏注册窗口标题</h2>
             <section>
                 <form>
-                    <p>
-                        <label for="email">请输入邮箱地址: <input id="email" name="name" placeholder="这是一个文本输入框"/></label>
-                    </p>
-                    <p>邮箱地址请按要求输入</p>
-                    <p>
-                        <label for="email">请输入密码: <input id="password" name="password" type="password" placeholder="这是一个文本输入框"/></label><label for="email">请重复输入密码: <input id="passwordcp" name="passwordcp" type="password" placeholder="这是一个文本输入框"/></label>
-                    </p>
-                    <p>密码请为6-16位英文或数字</p>
-                    <p>
-                        <label for="sex">性别: 
-                            <input type="radio" name="sex" value="male" /> 男
-                            <input type="radio" name="sex" value="female" /> 女
-                        </label>
-                        <label for="city">城市: 
-                            <select name="city" id="city">
-                                <option value="beijing">北京</option>
-                            </select>
-                        </label>
-                        <label for="hobby">爱好: 
-                            <input type="checkbox" name="hobby" value="yundong" />运动
-                            <input type="checkbox" name="hobby" value="yishu" />艺术
-                            <input type="checkbox" name="hobby" value="keji" />科技
-                        </label>
-                        <label for="selfdes">个人描述: 
-                            <textarea id="selfdes" name="selfdes" rows="2" placeholder="这是一个文本输入框,请输入您的个人描述"></textarea>
-                        </label>
+                    <div>
+                        <label for="email" class="form-label">请输入邮箱地址: </label>
+                            <div class="form-input">
+                                <input id="email" name="email" placeholder="这是一个文本输入框"/>
+                                <p class="tip">邮箱地址请按要求输入</p>
+                            </div>    
+                    </div>
+                    <div>
+                        <label for="password" class="form-label">请输入密码: </label>
+                            <div class="form-input">
+                                <input id="password" name="password" type="password" placeholder="这是一个文本输入框"/>
+                            </div>
+                    </div>
+                    <div>
+                        <label for="passwordcp" class="form-label">请重复输入密码: </label>
+                            <div class="form-input">
+                                <input id="passwordcp" name="passwordcp" type="password" placeholder="这是一个文本输入框"/>
+                                <p class="tip">密码请为6-16位英文或数字</p>
+                            </div>
+                    </div>
+                    <div>
+                        <label for="sex" class="form-label">性别: </label>
+                            <div class="form-input">
+                                <input type="radio" name="sex" value="male" /> 男
+                                <input type="radio" name="sex" value="female" /> 女
+                            </div>
+                    </div>
+                    <div>
+                        <label for="city" class="form-label">城市: </label>
+                            <div class="form-input">
+                                <select name="city" id="city">
+                                    <option value="beijing">北京</option>
+                                </select>
+                            </div>
+                    </div>
+                    <div>
+                        <label for="hobby" class="form-label">爱好: </label>
+                            <div class="form-input">
+                                <input type="checkbox" name="hobby" value="yundong" />运动
+                                <input type="checkbox" name="hobby" value="yishu" />艺术
+                                <input type="checkbox" name="hobby" value="keji" />科技
+                            </div>
+                    </div>
+                    <div>
+                        <label for="selfdes" class="form-label">个人描述: </label>
+                            <div class="form-input">
+                                <textarea id="selfdes" name="selfdes" rows="2" placeholder="这是一个文本输入框,请输入您的个人描述"></textarea>
+                            </div>
+                    </div>
                         <input type="submit" name="submit" id="submit" value="确认提交">
-                    </p>
+                    </div>
                 </form>
             </section>
         </article>
