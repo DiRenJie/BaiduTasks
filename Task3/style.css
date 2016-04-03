@@ -1,0 +1,46 @@
+body {
+    background-color: gainsboro;
+    margin:20px;
+}
+
+/*intro*/
+.intro {
+    float:left;
+    border:thin solid #eee;
+    background-color: white;
+    width:200px;
+    display: inline;
+}
+
+.intro img {
+    display: inline-block;
+    margin:20px;
+}
+
+
+/*content*/
+.content {
+    display: inline;
+    border:thin solid #eee;
+    background-color: white;
+    margin: 20px;
+    margin-right:480px;
+    float: left;
+    position: relative;
+    left:200px;
+}
+
+/*logo*/
+.logo {
+    display: inline;
+    float: left;
+    border:thin solid #eee;
+    background-color: white;
+    margin: 20px;
+    width:120px;
+}
+
+.logo img {
+    display: block;
+    margin:20px;
+}
